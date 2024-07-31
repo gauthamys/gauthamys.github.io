@@ -8,6 +8,14 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@layer utilities {
+  .bg-graph-paper {
+    background-image: linear-gradient(to right, #525252 1px, transparent 1px),
+                      linear-gradient(to bottom, #525252 1px, transparent 1px);
+    background-size: 15px 15px; /* Adjust the size of the grid */
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

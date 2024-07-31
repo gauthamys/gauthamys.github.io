@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="fixed w-full bg-green-500 h-8 flex flex-row justify-center justify-evenly text-black p-2 z-10">
+          <a href="https://www.linkedin.com/in/gauthamys"><FaLinkedin /></a>
+          <a><FaGithub /></a>
+          <a><FaInstagram /></a>
+          <a><FaXTwitter /></a>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
