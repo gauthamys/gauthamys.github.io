@@ -105,8 +105,8 @@ function About() {
     <div className="border-t-2 border-dashed border-white px-[1%]">
     <h1 className="text-5xl w-full mb-4 font-mono mt-20">ABOUT</h1>
       <div className="mb-10 font-mono">
-        {">"} I am a Master's Student at the <span className="underline underline-offset-4 text-pink-500">University of Illinois at Chicago</span> in Computer Science<br />
-        {">"} I love building clean websites and I'm fascinated deeply by large scale software architecture<br />
+        {">"} I am a Masters Student at the <span className="underline underline-offset-4 text-pink-500">University of Illinois at Chicago</span> in Computer Science<br />
+        {">"} I love building clean websites and I am fascinated deeply by large scale software architecture<br />
         {">"} I have 2+ years of professional experience in DevOps engineering and Backend Engineering<br />
         {">"} I am proficient in Java, Python, C++ and Javascript
       </div>
