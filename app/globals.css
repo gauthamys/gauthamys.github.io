@@ -10,8 +10,8 @@
 
 @layer utilities {
   .bg-graph-paper {
-    background-image: linear-gradient(to right, #525252 1px, transparent 1px),
-                      linear-gradient(to bottom, #525252 1px, transparent 1px);
+    background-image: linear-gradient(to right, #7c7070 1px, transparent 1px),
+                      linear-gradient(to bottom, #7c7070 1px, transparent 1px);
     background-size: 15px 15px; /* Adjust the size of the grid */
   }
 }
