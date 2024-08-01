@@ -19,11 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="fixed w-full bg-green-500 h-8 flex flex-row justify-center justify-evenly text-black p-2 z-10">
+        <div className="fixed w-full bg-green-500 h-8 flex flex-row justify-center justify-evenly text-black p-3 z-10">
           <a href="https://www.linkedin.com/in/gauthamys"><FaLinkedin /></a>
-          <a href=""><FaGithub /></a>
-          <a><FaInstagram /></a>
-          <a><FaXTwitter /></a>
+          <a href="https://www.github.com/gauthamys"><FaGithub /></a>
+          <a href="https://www.instagram.com/gautham.ys"><FaInstagram /></a>
+          <a href="https://x.com/GauthamYS"><FaXTwitter /></a>
         </div>
         {children}
       </body>
