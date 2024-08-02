@@ -1,5 +1,3 @@
-'use client'
-
 import { useMotionValueEvent, useScroll, motion } from "framer-motion"
 
 type Project = {
@@ -151,10 +149,6 @@ function Interests() {
 }
 
 export default function Home() {
-  const {scrollYProgress} = useScroll();
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    console.log("Page scroll: ", latest)
-  })
   return (
     <div className="h-screen w-full bg-black text-white grid grid-rows-4">
       <div className="grid row-span-1 grid-cols-7">
